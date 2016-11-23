@@ -65,7 +65,7 @@ answer = ['{0}{1}{2:02}'.format(c1, c2, n)
           for c2 in lowercase
           for n in range(100)]
 
-print(len(answer))
+print(answer[0:100])
 # for i in range(len(answer)):
 #     if i % 10000 == 0:
 #         print(answer[i])
